@@ -38,7 +38,11 @@ import java.util.concurrent.locks.ReadWriteLock;
  *
  * @author Clinton Begin
  */
-
+/**
+ * Mybatis的缓存基类，其实现由FifoCache,LruCache,PerpetualCache.....
+ * @author Shilin.Qu
+ *
+ */
 public interface Cache {
 
   /**
